@@ -13,7 +13,7 @@ body {
 .social-links-card {
   width: 320px;
   background-color:  hsl(0, 0%, 12%);
-  padding: 20px;
+  padding: 30px;
   border-radius: 15px;
   text-align: center;
   color: white;
@@ -25,11 +25,11 @@ body {
   }
 }
 .social-links-card img {
-  width: 65px;
+  width: 70px;
   border-radius: 50%;
 }
 .social-links-card .title {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 500;
   margin: 15px 0 0;
 }
@@ -41,7 +41,7 @@ body {
 }
 .social-links-card .job {
   margin: 0 0 20px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .social-links-card .links {
   list-style: none;
