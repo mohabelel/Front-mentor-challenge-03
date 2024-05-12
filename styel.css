@@ -11,7 +11,7 @@ body {
   font-family:  "Inter", sans-serif;
 }
 .social-links-card {
-  width: 320px;
+  width: 380px;
   background-color:  hsl(0, 0%, 12%);
   padding: 30px;
   border-radius: 15px;
@@ -40,16 +40,16 @@ body {
   font-size: 14px;
 }
 .social-links-card .job {
-  margin: 0 0 20px;
-  font-size: 15px;
+  margin: 0 0 15px;
+  font-size: 14px;
 }
 .social-links-card .links {
   list-style: none;
   display: grid;
-  gap: 15px;
+  gap: 20px;
 }
 .social-links-card .links li {
-  padding: 10px 0;
+  padding: 10px 20px;
   background-color: hsl(0, 0%, 20%);
   border-radius: 7px;
   width: 100%;
@@ -61,5 +61,4 @@ body {
 .social-links-card .links li:hover {
   background-color:  hsl(75, 94%, 57%);
   color: black;
-  font-weight: 700;
 }
