@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  font-family:  "Inter", sans-serif;
+}
+.social-links-card {
+  width: 320px;
+  background-color:  hsl(0, 0%, 12%);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 375px) {
+  .social-links-card  {
+    width: 300px;
+    margin: 0 15px;
+  }
+}
+.social-links-card img {
+  width: 65px;
+  border-radius: 50%;
+}
+.social-links-card .title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 15px 0 0;
+}
+.social-links-card .address {
+  display: block;
+  color: hsl(75, 94%, 57%);
+  margin: 5px 0 15px;
+  font-size: 14px;
+}
+.social-links-card .job {
+  margin: 0 0 20px;
+  font-size: 13px;
+}
+.social-links-card .links {
+  list-style: none;
+  display: grid;
+  gap: 15px;
+}
+.social-links-card .links li {
+  padding: 10px 0;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 7px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.social-links-card .links li:hover {
+  background-color:  hsl(75, 94%, 57%);
+  color: black;
+  font-weight: 700;
+}
